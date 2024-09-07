@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>My Quiz Page</h1>
+
+    <div class="question">
+        <p>우리나라의 최고의 대학은?</p>
+        <label><input type="radio" name="question1" value="서울대학교"> 서울대학교</label><br>
+        <label><input type="radio" name="question1" value="고려대학교"> 고려대학교</label><br>
+        <label><input type="radio" name="question1" value="연세대학교"> 연세대학교</label><br>
+        <label><input type="radio" name="question1" value="카이스트"> 카이스트</label>
+    </div>
+
+    <div class="question">
+        <p>고려대 최고의 단과대는?</p>
+        <label><input type="radio" name="question2" value="정보대학"> 정보대학</label><br>
+        <label><input type="radio" name="question2" value="공과대학"> 공과대학</label><br>
+        <label><input type="radio" name="question2" value="문과대학"> 문과대학</label><br>
+        <label><input type="radio" name="question2" value="이과대학"> 이과대학</label>
+    </div>
+
+    <div class="question">
+        <p>정보대 최고의 동아리는?</p>
+        <input type="text" id="question3">
+    </div>
+
+    <button id="submit-btn">Submit</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
